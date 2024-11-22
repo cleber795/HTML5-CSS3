@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações Importantes</title>
+    <style>
+        mark{
+            background-color: rgb(75, 249, 136);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (Não semântica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <!--Continuação do c08a03-->
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tabém <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos outro <mark>texto marcado</mark> no final</p>
+    <h2>Texto grande e pequeno</h2>
+    <!--
+        A tag mark em HTML5:
+        Definição:
+            -Destaca um trecho de texto como se estivesse marcado com um marcador.
+        Uso
+            - Envolva o texto que deseja destacar.
+            - Indica que o texto é relevante ou importante.
+        Observações
+            - Não é necessário fechar a tag.
+            - Pode ser usada em textos, parágrafos, listas, etc.
+            - É útil para destacar informações importantes.
+    -->
+    <p>Estamos criando <big>texto grande </big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <!--
+    A tag big em HTML:
+    Definição
+        - Aumenta o tamanho da fonte do texto envolvido.
+    Uso
+        - Envolva o texto que deseja aumentar.
+        - Não é necessário fechar a tag.
+    Observações
+        - Descontinuada em HTML5 (não é mais suportada).
+        - Use CSS para estilizar o tamanho da fonte:
+        - font-size: 120%;
+        - font-size: 1.2em;
+        - font-size: 24px;
+    -->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que deve ser lido mas não considerado</p>
+    <!--
+    A tag del em HTML5:
+    Definição
+        - Indica que o conteúdo dentro da tag foi deletado ou removido.
+    Uso
+        - Envolva o texto ou elemento que deseja marcar como deletado.
+        - O conteúdo é exibido com uma linha diagonal sobre ele.
+    Semântica
+        - Indica que o conteúdo foi removido ou substituído.
+    Útil para:
+        - Histórico de revisões.
+        - Comparação de versões.
+        - Registro de alterações.
+    -->
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foiadicionado depois.</p>
+    <!--
+    A tag ins em HTML5:
+    Definição
+        - Indica que o conteúdo dentro da tag foi inserido ou adicionado.
+    Uso
+        1. Envolva o texto ou elemento que deseja marcar como inserido.
+        2. O conteúdo é exibido com uma linha sublinhada.
+    Semântica
+        1. Indica que o conteúdo foi adicionado ou inserido.
+        2. Útil para:
+            - Histórico de revisões.
+            - Comparação de versões.
+            - Registro de alterações.
+    -->
+    <p>Exte também o <u>sublinahado</u> com a tag U(não semântica)</p>
+    <!--
+    A tag u em HTML5:
+    Definição
+        - Indica que o texto dentro da tag deve ser sublinhado.
+    Uso
+        1. Envolva o texto que deseja sublinhar.
+        2. Não é necessário fechar a tag.
+    Semântica
+        1. Indica ênfase visual.
+        2. Não tem significado semântico específico.
+    -->
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <!--
+    A tag sup em HTML5:
+    Definição
+        - Indica que o texto dentro da tag deve ser exibido como um superíndice (acima da linha de base).
+    Uso
+        1. Envolva o texto que deseja exibir como superíndice.
+        2. Não é necessário fechar a tag explicitamente
+    Semântica
+        1. Indica que o texto é um superíndice.
+        2. Útil para:
+            - Fórmulas matemáticas.
+            - Notações científicas.
+            - Referências de rodapé
+    -->
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <!--
+    A tag sub em HTML5:
+    Definição
+        - Indica que o texto dentro da tag deve ser exibido como um subíndice (abaixo da linha de base).
+    Uso
+        1. Envolva o texto que deseja exibir como subíndice.
+        2. Não é necessário fechar a tag explicitamente.
+    Semântica
+        1. Indica que o texto é um subíndice.
+        2. Útil para:
+            - Fórmulas químicas.
+            - Notações matemáticas.
+            - Transcrições científicas.
+    -->
+</body>
+</html>
