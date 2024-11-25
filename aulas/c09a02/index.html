@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas mistas e de definição</title>
+</head>
+<body>
+    <!--
+    Em HTML5, listas mistas permitem combinar diferentes tipos de listas, como ordenadas (OL), não ordenadas (UL) e de definições (DL), para criar estruturas complexas de conteúdo. Aqui está um guia sobre como criar listas mistas:
+    Estrutura Básica
+        1. Listas Aninhadas: Coloque uma lista dentro de outra para criar uma hierarquia.
+        2. Listas Mistas: Combine diferentes tipos de listas
+    Dicas
+        1. Use semântica correta: Utilize as tags corretas para cada tipo de lista.
+        2. Mantenha a hierarquia: Organize o conteúdo de forma lógica.
+        3. Teste em diferentes navegadores: Verifique compatibilidade.
+
+    -->
+    <h1>Trabalhando com listas A.02</h1>
+    <h2>Minhas linguegens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <li>NES</li>
+    <ul type="square">
+        <li>Mario Bros</li>
+        <ul type="circle">
+            <li>Mario Bross 3</li>
+            <li>Mario: Lost Levels</li>
+        </ul>
+        <li>Ninja Gaiden</li>
+    </ul>
+    <li>SNES</li>
+    <ul type="square">
+        <li>Mario</li>
+        <li>Donkey Kong</li>
+    </ul>
+    <li>PlayStation</li>
+    <ul type="square">
+        <li>Final Fantasy</li>
+        <li>Castlevania</li>
+    </ul>
+    <h2>Lista de Definições</h2>
+    <dl>
+    <!--
+     tag dl (Definition List) em HTML é usada para criar listas de definições, onde cada item é composto por:
+        Estrutura
+            1. dt (Definition Term): O termo ou conceito.
+            2. dd (Definition Description): A definição ou explicação.
+        Semântica
+            1. Indica uma lista de definições.
+            2. Melhora a acessibilidade.
+            3. É útil para:
+                - Glossários.
+                - Dicionários.
+                - Explicações técnicas.
+                - Definições de termos.
+        Dicas
+            1. Use dt e dd corretamente.
+            2. Mantenha a ordem lógica.
+            3. Teste em diferentes dispositivos. 
+    -->
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
