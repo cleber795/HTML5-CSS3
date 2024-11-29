@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento Áudio</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+<!--
+A tag <audio> em HTML5 é utilizada para inserir áudio em uma página web. Aqui estão suas principais características:
+    Atributos
+        1. src: Especifica a URL do arquivo de áudio.
+        2. controls: Exibe controles de reprodução (play, pause, volume).
+        3. autoplay: Reproduz o áudio automaticamente.
+        4. loop: Reproduz o áudio em loop.
+        5. muted: Inicia o áudio com o volume desativado.
+        6. preload: Pre-carrega o áudio (none, metadata, auto).
+    Exemplos
+        1. Áudio básico:
+            <audio src="musica.mp3" controls></audio>
+        2. Áudio com controles personalizados:
+            <audio controls>
+            <source src="musica.mp3" type="audio/mp3">
+            <source src="musica.ogg" type="audio/ogg">
+            Seu navegador não suporta áudio.
+            </audio>
+        3. Áudio com autoplay e loop:
+            <audio src="musica.mp3" autoplay loop controls></audio>
+            Tipos de arquivos suportados
+            1. MP3
+            2. WAV
+            3. OGG
+            4. AAC
+    Boas práticas
+        1. Forneça opções de controle para o usuário.
+        2. Use preload para melhorar a experiência do usuário.
+        3. Teste em diferentes navegadores e dispositivos.
+        4. Verifique a compatibilidade com screen readers.
+    -->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+     <audio preload="metadata" autoplay controls loop>
+        <source src="midia/fortunate-note-silent-partner.mp3" type="audio/mpeg">
+        <source src="midia/fortunate-note-silent-partner.ogg" type="audio/ogg">
+        <source src="midia/fortunate-note-silent-partner.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio <a href="midia/fortunate-note-silent-partner.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+     </audio>
+</body>
+</html>
