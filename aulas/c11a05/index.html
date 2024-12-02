@@ -6,6 +6,41 @@
     <title>Vídeos de Hospedagem Local</title>
 </head>
 <body>
-    
+    <h1>Vídeos Hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!--
+    Forma simples:
+    <video src="midia/meu-video.mp4" width="500" controls></video>
+    -->
+    <video width="500" poster="imagens/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        <!--
+A tag <video> em HTML5 é utilizada para inserir vídeos em uma página web. Aqui estão suas principais características:
+    Atributos
+        1. src: Especifica a URL do arquivo de vídeo.
+        2. controls: Exibe controles de reprodução (play, pause, volume).
+        3. autoplay: Reproduz o vídeo automaticamente.
+        4. loop: Reproduz o vídeo em loop.
+        5. muted: Inicia o vídeo com o volume desativado.
+        6. preload: Pre-carrega o vídeo (none, metadata, auto).
+        7. width e height: Definem o tamanho do vídeo.
+        8. poster: Especifica uma imagem para ser exibida antes da reprodução.
+    Tipos de arquivos suportados
+        1. MP4
+        2. WebM
+        3. OGV
+        4. MOV
+    Boas práticas
+        1. Forneça opções de controle para o usuário.
+        2. Use preload para melhorar a experiência do usuário.
+        3. Teste em diferentes navegadores e dispositivos.
+        4. Verifique a compatibilidade com screen readers.
+        5. Use legendas para acessibilidade.
+        -->
+    </video>
 </body>
 </html>
