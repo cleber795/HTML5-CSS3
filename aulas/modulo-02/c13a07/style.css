@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/*
+A diretiva @charset em CSS especifica a codificação de caracteres para a folha de estilo. Ela deve ser a primeira linha do arquivo CSS.
+    Sintaxe:
+        @charset "nome-da-codificação";
+    Exemplo:
+        @charset "UTF-8";
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a7);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+/*
+A propriedade border-radius em CSS define a curvatura das bordas de um elemento. Aqui estão as opções:
+    Sintaxe
+        border-radius: valor;
+    Valores
+        1. px (pixels): Unidade de medida absoluta (ex.: 10px).
+        2. % (porcentagem): Relativa ao tamanho do elemento (ex.: 50%).
+        3. em: Relativa à fonte do elemento (ex.: 2em).
+        4. rem: Relativa à fonte do elemento raiz (ex.: 2rem).
+    Propriedades relacionadas
+        1. border: Define a borda do elemento.
+        2. border-style: Define o estilo da borda.
+        3. border-width: Define a largura da borda.
+        4. box-shadow: Define a sombra do elemento.    
+*/
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+/*
+A propriedade box-shadow em CSS adiciona uma sombra ao redor de um elemento.
+    Valores:
+        1. Horizontal (obrigatório): Distância horizontal da sombra (px, em, rem).
+        2. Vertical (obrigatório): Distância vertical da sombra (px, em, rem).
+        3. Blur (opcional): Desfoque da sombra (px, em, rem).
+        4. Spread (opcional): Espalhamento da sombra (px, em, rem).
+        5. Cor (opcional): Cor da sombra (hex, rgb, rgba).
+        6. Inset (opcional): Sombra interna (sim/não)
+*/
+    width: 600px;
+/*
+A propriedade "width" em CSS define a largura de um elemento.
+    Valores
+        1. Auto: Largura automática (padrão).
+        2. px (pixels): Unidade de medida absoluta (ex.: 200px).
+        3. % (porcentagem): Relativa ao elemento pai (ex.: 50%).
+        4. em: Relativa à fonte do elemento (ex.: 2em).
+        5. rem: Relativa à fonte do elemento raiz (ex.: 2rem).
+        6. vw (viewport width): Relativa à largura da janela de visualização (ex.: 100vw).
+        7. max-width: Define a largura máxima.
+        8. min-width: Define a largura mínima.
+*/
+    padding: 10px;
+/*
+A propriedade "padding" em CSS define o espaço entre o conteúdo de um elemento e sua borda.
+    Tipos de Padding
+        1. padding-top: Espaço superior.
+        2. padding-right: Espaço direito.
+        3. padding-bottom: Espaço inferior.
+        4. padding-left: Espaço esquerdo.
+    Valores
+        1. px (pixels): Unidade de medida absoluta.
+        2. % (porcentagem): Relativa ao elemento pai.
+        3. em: Relativa à fonte do elemento.
+        4. rem: Relativa à fonte do elemento raiz.
+*/
+    margin: auto;
+/*
+A propriedade "margin" em CSS define o espaço entre um elemento e outros elementos adjacentes. Existem quatro tipos de margem:
+    Tipos de Margem
+        1. margin-top: Espaço superior.
+        2. margin-right: Espaço direito.
+        3. margin-bottom: Espaço inferior.
+        4. margin-left: Espaço esquerdo.
+    Valores
+        1. px (pixels): Unidade de medida absoluta.
+        2. % (porcentagem): Relativa ao elemento pai.
+        3. em: Relativa à fonte do elemento.
+        4. rem: Relativa à fonte do elemento raiz.
+        5. auto: Margem automática.
+*/
+}
+
+h1 {
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(129, 5, 0, 0.726);
+/*
+A propriedade "text-shadow" em CSS adiciona uma sombra ao texto.
+    Valores
+        1. Horizontal: Distância horizontal da sombra (px, em, rem).
+        2. Vertical: Distância vertical da sombra (px, em, rem).
+        3. Blur: Desfoque da sombra (px, em, rem).
+        4. Cor: Cor da sombra (hex, rgb, rgba).
+    
+*/
+}
+
+h2 {
+    color: #125189;
+}
+
+p {
+    text-align: justify;
+}
+
