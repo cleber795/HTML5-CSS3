@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Degradê em CSS</title>
+    <style>
+        *{ /* Configurações globais das CSS */
+            height: 100%;
+/* 
+A propriedade "height" em CSS define a altura de um elemento. Aqui estão as opções:
+    Valores
+        1. Auto: Altura automática (padrão).
+        2. px (pixels): Unidade de medida absoluta (ex.: 200px).
+        3. % (porcentagem): Relativa ao elemento pai (ex.: 50%).
+        4. em: Relativa à fonte do elemento (ex.: 2em).
+        5. rem: Relativa à fonte do elemento raiz (ex.: 2rem).
+        6. vh (viewport height): Relativa à altura da janela de visualização (ex.: 100vh).
+        7. max-height: Define a altura máxima.
+        8. min-height: Define a altura mínima.
+    Propriedades relacionadas
+        1. width: Define a largura do elemento.
+        2. min-width e max-width: Definem a largura mínima e máxima.
+        3. box-sizing: Define como o navegador calcula largura e altura.
+    Boas práticas
+        1. Utilize unidades relativas para adaptabilidade.
+        2. Defina altura e largura consistentes.
+        3. Teste em diferentes dispositivos e navegadores.
+*/
+        }
+
+        body {
+            background-image: linear-gradient(to right,#3198e2, #6d59c0, #b93590, #e33f5f,#fdd579);
+/*
+A propriedade background-image em CSS é utilizada para definir uma imagem de fundo para um elemento. Aqui estão as opções:
+    Propriedades
+        1. url(): Especifica o caminho da imagem.
+        2. none: Remove a imagem de fundo.
+        3. inherit: Herda a propriedade do elemento pai.
+        4. initial: Define o valor inicial.
+    Valores adicionais
+        1. background-repeat: repeat (padrão), no-repeat, repeat-x, repeat-y.
+        2. background-position: top, bottom, left, right, center.
+        3. background-size: cover, contain, auto.
+        4. background-attachment: scroll (padrão), fixed.
+    Boas práticas
+        1. Utilize imagens otimizadas para reduzir o tamanho do arquivo.
+        2. Defina a propriedade background-color como fallback.
+        3. Teste em diferentes dispositivos e navegadores.
+*/
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
