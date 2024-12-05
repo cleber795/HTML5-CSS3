@@ -7,6 +7,10 @@ body{
     color: white
 }
 
+div{
+    background-image: linear-gradient(to bottom, #3bd580, #1a5c37)
+}
+
 main{
     text-align: justify;
     background-color: white;

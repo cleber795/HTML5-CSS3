@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1>Curiosidadee de tecnologia</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo tech, em um único lugar.</p>
+        <div>
+            <h1>Curiosidadee de tecnologia</h1>
+            <p>Tudo aquilo que você sempre quis saber sobre o mundo tech, em um único lugar.</p>
+        </div>
 <!--
 [MENU]
     Home
@@ -22,9 +24,15 @@
         <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo mondo. Mas talvez você não saiba que o seu simpático mascote  tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
         <h2>A primeira versão</h2>
         <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <strong>Dan Morrill</strong>. Ele conta que abriu o <strong>Inkscape</strong> (software livre para vetorização de imagens) e criou sua própria versão do robô. O objetivo era apenas o sistema apenas para a sua equipe, não existia nehuma solicitação da empresa para criação de um mascote.</p>
-        <img src="imagens/dan-droids.png" alt="Mascote">
+        <picture>
+            <source media="(max-width: 850px)" srcset="imagens/dan-droids-pq.png" taype="image/png">
+            <img src="imagens/dan-droids.png" alt="Mascote">
+        </picture>
         <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: Seriam os <strong>Dandroids</strong>.</p>
-        <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        <picture>
+            <source media="(max-width: 850px)" srcset="imagens/irina-blok-pq.jpg" taype="image/png">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
         <h2>Surge um novo Mascote</h2>
         <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma proficional da arêa. A ilustradora Russa <strong>Irina Blok</strong>, também funcionária do Google, ficou com a missãode reprentar o pequeno robô de uma maneira mais agradável</p>
         <img src="imagens/bugdroid.png" alt="Bugdroid">
@@ -58,6 +66,6 @@
         <!--Tabela fim-->
         <p>Então é isso Espero que você tenha gostado do nosso artigo com essa Curiosidade sobre o sitema <strong>Android</strong> e seu simpático mascote.</p>
     </main>
-    <p>Site criado por Gustavo Guanabara para o CursoemVideo.</p>
+    <p style="background-color: #1a5c37;">Site criado por Gustavo Guanabara para o CursoemVideo.</p>
 </body>
 </html>
