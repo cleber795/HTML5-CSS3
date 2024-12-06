@@ -8,7 +8,11 @@ body{
 }
 
 div{
-    background-image: linear-gradient(to bottom, #3bd580, #1a5c37)
+    background-image: linear-gradient(to bottom, #3bd580, #1a5c37);
+    width: 2000px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
 }
 
 main{
