@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familias de fonte</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+/*
+A propriedade "font-weight" em CSS define o peso ou a espessura da fonte. Valores:
+    Valores Numéricos
+        1. 100 (extra leve)
+        2. 200 (leve)
+        3. 300 (normal leve)
+        4. 400 (normal, equivalente a "normal")
+        5. 500 (normal pesado)
+        6. 600 (pesado)
+        7. 700 (extra pesado)
+        8. 800 (preto)
+        9. 900 (extra preto)
+    Valores Descritivos
+        1. "normal" (equivalente a 400)
+        2. "bold" (negrito, equivalente a 700)
+        3. "bolder" (mais pesado que o pai)
+        4. "lighter" (mais leve que o pai)
+*/
+     
+        h1{
+            /*
+            O shorthand "font" em CSS combina várias propriedades de fonte em uma única linha. Sintaxe:
+                font-style -> font-weight -> font-size -> font-family
+
+                font-family: 'work sans', sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+
+                        |
+                        V    
+            */
+            font: italic bolder 3em 'Work sans', sans-serif;
+        }
+            /* se caso alguma dessas propriedades, você não que configurar pode pular e seguir para próxima */
+        h2{
+            font: bolder 2em 'Work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor blanditiis sed facere assumenda doloremque nam velit explicabo nihil quidem dignissimos deleniti, reiciendis dolorem quia, molestias sunt, suscipit asperiores fuga Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem sequi necessitatibus totam ducimus porro, non eius officia odio laudantium, accusamus aspernatur rem sed hic eum praesentium temporibus alias possimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas sit deserunt consectetur deleniti, natus rerum rem quia nobis sunt! Accusantium tempore consequatur doloribus quis dolore, nobis sapiente ratione aliquam et.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, fugiat cum. Tempore error omnis eveniet laudantium beatae! Veniam provident totam consequatur, aliquam eligendi minus distinctio ut ea. Ratione, sequi doloribus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ab cum totam laboriosam ex aperiam eveniet veniam sequi asperiores? Blanditiis doloremque repellat cupiditate aliquam illum reprehenderit error eveniet, nesciunt accusantium!</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, natus similique alias fugiat necessitatibus sed facere sit repudiandae voluptatum tempora, voluptate ipsam? Mollitia necessitatibus cum dolores reiciendis accusamus, esse facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est animi voluptatem modi! Eligendi quaerat amet officiis veritatis possimus ex enim distinctio nostrum. Quis, expedita! Eius vero ab excepturi id.</p>
+</body>
+</html>
