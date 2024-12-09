@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +15,7 @@ body{
 
 div{
     background-image: linear-gradient(to bottom, #3bd580, #1a5c37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 2000px;
     padding: 10px;
     margin: auto;
@@ -25,5 +32,14 @@ main{
 }
 
 h2 {
+    font-family: 'android', times, serif;
+    font-size: 2em;
     color: #1a5c37;
+}
+
+h3 {
+    font-family: 'android', times, serif;
+    color: #1a5c37;
+    background-color: #84e1ad;
+    margin: auto;
 }
