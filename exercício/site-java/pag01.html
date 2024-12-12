@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis e Tipos Primitivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Variáveis e Tipos Primitivos</h1>
+
+    <h2>Identificadores:</h2>
+        <p>
+            <ol>
+                <li>Podem começar com Letras, $ ou _
+                <li>Não podem começar com números
+                <li>É possível usar Letras e Números
+                <li>É possível usar Acentos e Símbolos
+                <li>Não podem conter Espaços
+                <li>Não podem ser Palavras Reservadas
+            </ol>
+        </p>
+            <h3>Dicas:</h3>
+                <p>
+                    <ul>
+                        <li>Maiúsculas e minúsculas fazem a diferença
+                        <li>Tente escolher nomes coerentes para suas variáveis
+                        <li>Evite se tornar um 'progamador alfabeto' (var = a,b,c,d,e...) ou um 'progrador contador' (var = n1,n2,n3,n4...)
+                    </ul>
+                </p>
+
+    <h2>Tipos Primitivos:</h2>
+        <p>
+            <ol>
+                <li>Number (número): 42, 3.14, -100
+                <li>String (texto): 'Olá', "Mundo", 'Eu sou um texto'
+                <li>Boolean (lógico): true, false
+                <li>Null (nulo): null
+                <li>Undefined (indefinido): undefined
+                <li>Symbol (símbolo): Symbol('nome')
+            </ol>
+        </p>
+            <h3>Exemplos</h3>
+                <p>
+                    <ul>
+                        <li>let idade = 30; // Number
+                        <li>let nome = 'João'; // String
+                        <li>let isAdmin = true; // Boolean
+                        <li>let pessoa = null; // Null
+                        <li>let desconhecido; // Undefined
+                    </ul>
+                </p>
+    <h2>Tipos Compostos:</h2>
+        <p>
+            <ol>
+                <li>Object (objeto): { nome: 'João', idade: 30 }
+                <li>Array (vetor): [1, 2, 3], ['a', 'b', 'c']
+                <li>Function (função): function soma(a, b) { return a + b; }
+                <li>Date (data): new Date('2024-12-10')
+            </ol>
+        </p>
+            <h3>Exemplos</h3>
+                <p>
+                    <ul>
+                        <li>let pessoa = { nome: 'João', idade: 30 }; // Object
+                        <li>let frutas = ['maçã', 'banana', 'laranja']; // Array
+                        <li>let soma = function(a, b) { return a + b; }; // Function
+                        <li>let dataNascimento = new Date('1990-01-01'); // Date
+                    </ul>
+                </p>
+    <h2>Tipos Especiais:</h2>
+        <p>
+            <ol>
+                <li>NaN (não é um número): resultado de operações inválidas (ex.: 0/0)
+                <li>Infinity (infinito): resultado de operações com números muito grandes
+            </ol>
+        </p>
+            <h3>Exemplos</h3>
+                <p>
+                    <ul>
+                        <li>let resultado = 0 / 0; // NaN
+                        <li>let infinito = 1 / 0; // Infinity
+                    </ul>
+                </p>
+
+    <h2>Verificando tipos</h2>
+        <h3>Utilize o operador typeof para verificar o tipo de uma variável:</h3>
+            <p>
+                <ol>
+                    <li>console.log(typeof 30); // "number"
+                    <li>console.log(typeof 'Olá'); // "string"
+                    <li>console.log(typeof true); // "boolean"
+                    <li>console.log(typeof null); // "object"
+                    <li>console.log(typeof undefined); // "undefined"
+                </ol>
+            </p>
+            <p><a href="index.html" rel="priv">
+                <picture>
+                    <img src="imagens/voltar.png">
+                </picture>
+            </a></p>
+</body>
+</html>
