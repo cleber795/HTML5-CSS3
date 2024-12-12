@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em CSS é .
+
+A tag id em HTML5 é um atributo utilizado para identificar um elemento único dentro de um documento HTML. Ele serve para:
+    Propósitos
+        1. Identificação: Definir um identificador exclusivo para um elemento.
+        2. Estilização: Aplicar estilos CSS específicos utilizando o seletor #id.
+        3. JavaScript: Selecionar elementos para manipulação via JavaScript.
+        4. Ancoragem: Criar âncoras para links internos.
+    Características
+        1. Unicidade: Cada elemento deve ter um id único dentro do documento.
+        2. Sensibilidade a maiúsculas e minúsculas: id é sensível a maiúsculas e minúsculas.
+        3. Não pode começar com número: O primeiro caractere deve ser uma letra.
+        4. Não pode conter espaços: Utilize underline (_) ou hífen (-) para separar palavras.
+    Boas práticas
+        1. Utilize id apenas quando necessário.
+        2. Prefira classes (class) para estilização e JavaScript.
+        3. Mantenha id curtos e descritivos.
+        4. Evite utilizar id para elementos dinâmicos.
+*/
+
+body {
+    background-color: rgb(153, 247, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(1, 103, 1);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(1, 103, 1);
+    color: white;
+}
+
+h2{
+    color: rgb(51, 77, 49);
+}
