@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em CSS é .
+
+A tag class em HTML5 é um atributo utilizado para atribuir uma ou mais classes CSS a um elemento. Isso permite:
+    Propósitos
+        1. Estilização: Aplicar estilos CSS específicos.
+        2. JavaScript: Selecionar elementos para manipulação.
+        3. Organização: Agrupar elementos com características semelhantes.
+        4. Semântica: Adicionar significado aos elementos.
+    Características
+        1. Múltiplas classes: Separe nomes com espaços.
+        2. Sensibilidade a maiúsculas e minúsculas.
+        3. Não pode começar com número.
+        4. Não pode conter espaços (use underline ou hífen).
+    Boas práticas
+        1. Utilize nomes descritivos e concisos.
+        2. Evite utilizar IDs quando possível.
+        3. Use classes para estilização e JavaScript.
+        4. Mantenha classes organizadas e reutilizáveis.
+    Seletores CSS comuns
+        1. .classe: Seleciona elementos com a classe.
+        2. .classe1.classe2: Seleciona elementos com ambas as classes.
+        3. [class="classe"]: Seleciona elementos com a classe exata.
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2{
+    color: #3c805e;
+}
+
+.basico{
+    color: #3c805e;
+}
+
+.intermediario{
+    color: #80793c;
+}
+
+.avancado{
+    color: #803c3c;
+}
+
+.destaque{
+    background-color: rgba(208, 208, 75, 0.575);
+}
