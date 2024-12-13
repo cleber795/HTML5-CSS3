@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS pseudo-class</title>
+    <style>
+
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+
+/*
+Pseudo-classes em CSS são seletores que permitem aplicar estilos a elementos com base em estados específicos, como:
+    Tipos de Pseudo-classes
+        1. :hover: Quando o usuário passa o mouse sobre o elemento.
+        2. :active: Quando o usuário clica no elemento.
+        3. :focus: Quando o elemento recebe foco (ex.: ao clicar ou pressionar Tab).
+        4. :visited: Quando o usuário já visitou o link.
+        5. :link: Quando o elemento é um link não visitado.
+        6. :first-child: Quando o elemento é o primeiro filho de seu pai.
+        7. :last-child: Quando o elemento é o último filho de seu pai.
+        8. :nth-child(n): Quando o elemento é o n-ésimo filho de seu pai.
+        9. :checked: Quando um elemento de formulário está selecionado.
+        10. :disabled: Quando um elemento de formulário está desabilitado.
+        11. :enabled: Quando um elemento de formulário está habilitado.
+    Exemplos
+        1. Mudar cor ao passar o mouse: a:hover { color: #FF0000; }
+        2. Destacar o primeiro item de uma lista: li:first-child { font-weight: bold; }
+        3. Alterar cor de links visitados: a:visited { color: #008000; }
+    Pseudo-classes CSS3
+        1. :nth-of-type(n): Seleciona o n-ésimo elemento do mesmo tipo.
+        2. :last-of-type: Seleciona o último elemento do mesmo tipo.
+        3. :only-child: Seleciona elementos que são filhos únicos.
+        4. :only-of-type: Seleciona elementos que são os únicos do mesmo tipo.
+        5. :empty: Seleciona elementos vazios.
+    Boas práticas
+        1. Utilize pseudo-classes para melhorar a experiência do usuário.
+        2. Mantenha seletores simples e específicos.
+        3. Teste em diferentes navegadores e dispositivos
+*/
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
