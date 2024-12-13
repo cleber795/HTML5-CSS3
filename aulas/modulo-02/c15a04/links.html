@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+    /*
+        SELETORES PERSONALIZADOS
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = childrem
+
+Pseudo-elementos em CSS são seletores que permitem estilizar partes específicas de um elemento, como:
+    Tipos de Pseudo-elementos
+        1. ::before: Insere conteúdo antes do conteúdo do elemento.
+        2. ::after: Insere conteúdo após o conteúdo do elemento.
+        3. ::first-letter: Seleciona a primeira letra do texto.
+        4. ::first-line: Seleciona a primeira linha do texto.
+        5. ::selection: Seleciona o texto selecionado pelo usuário.
+    Uso comum
+        1. Adicionar ícones ou símbolos.
+        2. Criar efeitos de borda ou sombra.
+        3. Inserir conteúdo dinâmico.
+        4. Estilizar texto.
+        5. Criar layouts complexos.
+    Propriedades suportadas
+        1. content
+        2. display
+        3. width
+        4. height
+        5. background
+        6. border
+        7. box-shadow
+        8. font
+        9. color
+        10. text-shadow    
+*/
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        .especial {
+            background-color: rgb(247, 170, 170);
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '⇒ ';
+        }
+
+        .especial::after {
+            content: ' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Repositório GitHub</a>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="especial">Canal do YouTube</a>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site CursoemVideo</a>
+    </ul>
+</body>
+</html>
