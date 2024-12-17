@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(156, 156, 156);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(169, 169, 169);
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--
+        A tag <header> em HTML5 é utilizada para definir o cabeçalho de um documento ou seção, contendo informações como:
+            Elementos comuns dentro de <header>
+                1. Títulos (<h1>-<h6>)
+                2. Menus de navegação (<nav>)
+                3. Logotipos (<img>)
+                4. Links para redes sociais
+                5. Busca (<form>)
+                6. Informações de contato
+            Características
+                1. Pode haver múltiplos <header> em um documento.
+                2. Deve conter elementos de cabeçalho relevantes.
+                3. Não deve conter conteúdo principal.
+                4. É semântica, melhorando acessibilidade e SEO
+        -->
+        <h1>Meu site</h1>
+        <nav>
+            <!--
+            A tag <nav> em HTML5 é utilizada para definir um conjunto de links de navegação, como menus, barras de ferramentas ou links para outras páginas. Características:
+                Características
+                    1. Identifica seções de navegação.
+                    2. Melhora acessibilidade para usuários de leitores de tela.
+                    3. É semântica, melhorando SEO.
+                    4. Pode conter links, botões, formulários, etc.
+                Elementos comuns dentro de <nav>
+                    1. Links (<a>)
+                    2. Listas (<ul>, <ol>, <dl>)
+                    3. Botões (<button>)
+                    4. Formulários (<form>)
+                    5. Imagens (<img>)
+            -->
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <!--
+        A tag <main> em HTML5 define o conteúdo principal de um documento, exclusivo de cabeçalhos, rodapés, menus e barras laterais. Características:
+            Características
+                1. Identifica o conteúdo principal.
+                2. Melhora acessibilidade para usuários de leitores de tela.
+                3. É semântica, melhorando SEO.
+                4. Deve conter conteúdo exclusivo.
+            Elementos comuns dentro de <main>
+                1. Artigos (<article>)
+                2. Seções (<section>)
+                3. Parágrafos (<p>)
+                4. Imagens (<img>)
+                5. Vídeos (<video>)
+                6. Áudio (<audio>)
+                7. Tabelas (<table>)
+                8. Listas (<ul>, <ol>, <dl>)
+        -->
+        <section id="assuntos">
+            <!--
+            A tag <section> em HTML5 define uma seção de conteúdo dentro de um documento, como:
+                Tipos de Seções
+                    1. Capítulos
+                    2. Artigos
+                    3. Seções de um artigo
+                    4. Introduções
+                    5. Conclusões
+                    6. Seções de conteúdo relacionado
+                Características
+                    1. Identifica seções de conteúdo.
+                    2. Melhora acessibilidade para usuários de leitores de tela.
+                    3. É semântica, melhorando SEO.
+                    4. Pode conter títulos (h1-h6).
+                    5. Pode conter elementos de conteúdo.
+                Elementos Comuns dentro de <section>
+                    1. Títulos (h1-h6)
+                    2. Parágrafos (p)
+                    3. Imagens (img)
+                    4. Vídeos (video)
+                    5. Áudio (audio)
+                    6. Tabelas (table)
+                    7. Listas (ul, ol, dl)
+                    8. Artigos (article)
+                    9. Subseções (section)
+            -->
+            <p>Esporte Política Técnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <!--
+                A tag <article> em HTML5 define um conteúdo independente, como:
+                    Tipos de Artigos
+                        1. Notícias
+                        2. Blog posts
+                        3. Artigos de revistas
+                        4. Entradas de diário
+                        5. Comentários
+                        6. Resenhas
+                        7. Postagens em fóruns
+                    Características
+                        1. Identifica conteúdo independente.
+                        2. Melhora acessibilidade para usuários de leitores de tela.
+                        3. É semântica, melhorando SEO.
+                        4. Pode conter elementos de conteúdo.
+                        5. Pode ser usado dentro de <section> ou <main>.
+                    Elementos Comuns dentro de <article>
+                        1. Títulos (h1-h6)
+                        2. Parágrafos (p)
+                        3. Imagens (img)
+                        4. Vídeos (video)
+                        5. Áudio (audio)
+                        6. Tabelas (table)
+                        7. Listas (ul, ol, dl)
+                        8. Links (a)
+                        9. Citações (blockquote)
+                -->
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minima, temporibus odio similique dolore minus est tenetur maiores recusandae doloribus, quam ipsam laborum reiciendis magni pariatur! Saepe exercitationem dolores possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae, error, praesentium velit corrupti aut quos impedit molestiae fugit sunt iure eos alias itaque neque modi numquam, fuga perferendis? Fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quas perferendis doloremque cumque labore blanditiis rem at non pariatur velit alias perspiciatis similique voluptatum. Velit eius a numquam maxime nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sunt voluptatum distinctio quidem nihil maiores, fugiat at illo accusamus, est dolore! Debitis quia repellat iusto in voluptas quo vel minima?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae vitae dolorum adipisci modi, odit vel impedit atque dicta voluptatem eos. Voluptatem, obcaecati. Perferendis et quibusdam, dolorem ex dolor nisi fuga.</p>
+                <aside>
+                    <!--
+                    A tag <aside> em HTML5 define um conteúdo relacionado, mas secundário, como:
+                        Tipos de Conteúdo
+                            1. Notas explicativas
+                            2. Comentários
+                            3. Dicas
+                            4. Exemplos
+                            5. Ilustrações
+                            6. Citações
+                            7. Anúncios
+                            8. Barras laterais
+                            9. Caixas de destaque
+                        Características
+                            1. Identifica conteúdo secundário.
+                            2. Melhora acessibilidade.
+                            3. É semântica, melhorando SEO.
+                            4. Pode conter elementos de conteúdo.
+                            5. Pode ser usado dentro de <article>, <section> ou <main>.
+                        Elementos Comuns dentro de <aside>
+                            1. Parágrafos (p)
+                            2. Imagens (img)
+                            3. Vídeos (video)
+                            4. Áudio (audio)
+                            5. Tabelas (table)
+                            6. Listas (ul, ol, dl)
+                            7. Links (a)
+                            8. Citações (blockquote)
+                            9. Títulos (h1-h6)
+                    -->
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por CursoemVideo.</p>
+    </footer>
+</body>
+</html>
