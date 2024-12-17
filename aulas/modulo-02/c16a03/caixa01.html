@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorthands Úteis</title>
+    <style>
+        h1 {
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategrey;
+            /*border: 10px solid darkslategrey;*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*padding 10px;*/
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            /*margin 20px 20pc 40px 20px;*/
+            /*para centralizar 
+            margin 20px auto 40px auto;*/
+/*
+Em CSS, "margin" refere-se ao espaço entre um elemento e outros elementos adjacentes. É uma propriedade fundamental para controlar o layout e espaçamento entre elementos. Aqui estão detalhes sobre margin:
+    Tipos de Margin
+        1. Margin Top (margin-top): espaço acima do elemento.
+        2. Margin Right (margin-right): espaço à direita do elemento.
+        3. Margin Bottom (margin-bottom): espaço abaixo do elemento.
+        4. Margin Left (margin-left): espaço à esquerda do elemento.
+    Valores
+        1. Unidades de medida: px, em, rem, %, vw, vh.
+        2. Valores negativos: permitem sobrepor elementos.
+        3. Auto: define margin automática.
+    Exemplos
+        1. Margin em todos os lados: margin: 20px;
+        2. Margin diferente para cada lado: margin: 10px 20px 30px 40px; (top, right, bottom, left)
+        3. Margin apenas para lados específicos: margin-top: 10px; margin-left: 20px;
+    Propriedades relacionadas
+        1. Padding: espaço entre conteúdo e borda.
+        2. Border: borda ao redor do elemento.
+        3. Width e Height: largura e altura do elemento.
+    Dicas
+        1. Utilize margin para criar espaçamento entre elementos.
+        2. Evite usar margin para controlar largura/altura.
+        3. Utilize unidades relativas (em, rem) para adaptabilidade.
+        4. Verifique compatibilidade entre navegadores.
+*/
+
+            outline-width: 5px;
+            outline: dashed;
+            outline-color: salmon;
+            /*outline 5px dashed salmon*/
+/*
+Em CSS, "outline" é uma propriedade que define uma linha contornando um elemento, sem afetar o layout. Diferente da borda (border), o outline não ocupa espaço e não é considerado no cálculo do tamanho do elemento.
+    Propriedades Outline
+        1. outline-width: largura da linha (px, em, rem, %).
+        2. outline-style: estilo da linha (solid, dashed, dotted, double, groove, ridge).
+        3. outline-color: cor da linha (hex, rgb, rgba).
+        4. outline-offset: distância entre o elemento e a linha (px, em, rem).
+    Sintaxe
+        outline: largura estilo cor;
+        outline-width: valor;
+        outline-style: valor;
+        outline-color: valor;
+        outline-offset: valor;
+    Exemplos
+        1. Outline padrão: outline: 1px solid #000;
+        2. Outline com estilo: outline: 2px dashed #f00;
+        3. Outline com offset: outline-offset: 5px;
+    Vantagens
+        1. Não afeta o layout.
+        2. Não ocupa espaço.
+        3. Pode ser utilizado para destacar elementos.
+    Uso comum
+        1. Destacar elementos em foco.
+        2. Criar efeitos visuais.
+        3. Realizar acessibilidade.
+
+*/
+        }
+
+        a {
+            display: block;
+            border-width: 10px;
+            border-style: solid;
+            border-color: brown;
+        }
+/*
+A propriedade "display" em CSS define como um elemento é exibido e se ele é tratado como um bloco, linha, tabela, flexbox, grid, entre outros. Aqui estão os principais valores:
+    Tipos de Display
+        1. block: Elemento como bloco (ocupando toda a largura disponível). Ex: div, p, h1.
+        2. inline: Elemento como texto (sem quebrar linha). Ex: span, a, img.
+        3. inline-block: Combinação de block e inline.
+        4. flex: Elemento como container flexbox.
+        5. grid: Elemento como container grid.
+        6. table: Elemento como tabela.
+        7. none: Elemento não é exibido.
+    Valores Específicos
+        1. list-item: Para elementos de lista (li).
+        2. table-row: Para linhas de tabela.
+        3. table-cell: Para células de tabela.
+        4. table-column: Para colunas de tabela.
+        5. table-column-group: Para grupos de colunas de tabela.
+        6. table-footer-group: Para rodapé de tabela.
+        7. table-header-group: Para cabeçalho de tabela.
+    Valores Modernos
+        1. flexbox: display: flex ou inline-flex.
+        2. grid: display: grid ou inline-grid.
+        3. run-in: Para elementos que podem ser exibidos como block ou inline.
+    Propriedades Relacionadas
+        1. visibility: Oculta ou exibe um elemento.
+        2. opacity: Define a transparência.
+        3. position: Define o posicionamento.
+    Exemplos
+        1. Exibir como bloco: display: block;
+        2. Exibir como flexbox: display: flex;
+        3. Ocultar elemento: display: none;
+*/
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
