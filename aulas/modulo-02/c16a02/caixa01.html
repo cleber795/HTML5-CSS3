@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas na prática (parte 1)</title>
+    <style>
+        h1 {
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategrey;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+<!--
+O Box Model é um conceito fundamental em CSS e HTML que descreve a estrutura de um elemento HTML como uma caixa retangular. Essa caixa é composta por quatro partes principais:
+    Partes do Box Model
+        1. Conteúdo (Content): Área onde o conteúdo do elemento é exibido.
+        2. Preenchimento (Padding): Espaço entre o conteúdo e a borda.
+        3. Borda (Border): Linha que envolve o elemento.
+        4. Margem (Margin): Espaço entre o elemento e outros elementos adjacentes.
+    Propriedades CSS relacionadas
+        1. width e height: definem o tamanho do conteúdo.
+        2. padding: define o preenchimento (ex.: padding: 10px).
+        3. border: define a borda (ex.: border: 1px solid #000).
+        4. margin: define a margem (ex.: margin: 20px).
+    Tipos de Box Model
+        1. Box Model Clássico (Content Box): O tamanho do elemento é calculado com base no conteúdo (width e height).
+        2. Box Model Padrão (Border Box): O tamanho do elemento é calculado com base na borda (incluso padding e border).
+    Propriedade box-sizing
+        Define o tipo de Box Model:
+            1. content-box (Clássico)
+            2. border-box (Padrão)
+    Nesse exemplo, o tamanho total do elemento será de 200px de largura e 100px de altura, incluindo padding e border.
+        Dicas
+            1. Utilize box-sizing: border-box para facilitar cálculos.
+            2. Defina padding e margin consistentemente.
+            3. Utilize unidades de medida relativas (ex.: %, em, rem).
+            4. Verifique compatibilidade entre navegadores.
+        Recursos adicionais
+            1. W3C - Box Model
+            2. MDN Web Docs - Box Model
+            3. CSS-Tricks - Box Model
+-->
+</body>
+</html>
