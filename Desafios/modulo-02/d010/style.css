@@ -58,8 +58,10 @@ h2{
 
 h3{
     font-family: 'android', times, serif;
-    background-color: #8ff0bb;
+    background-image: linear-gradient(to right, #8ff0bb,#fefefe);
     color: #1a5c37;
+    padding: 1px;
+    margin: auto;
 }
 
 img {
