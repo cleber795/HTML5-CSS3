@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(156, 156, 156);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.393);
+            /*
+            O Box Shadow é uma propriedade CSS utilizada para adicionar uma sombra em um elemento HTML. Sua sintaxe básica é:
+                Sintaxe
+                    box-shadow: horizontal vertical blur spread cor;
+                Valores
+                    1. Horizontal: Distância da sombra em relação ao elemento na horizontal (px, em, rem, %).
+                    2. Vertical: Distância da sombra em relação ao elemento na vertical (px, em, rem, %).
+                    3. Blur: Desfoque da sombra (px, em, rem, %).
+                    4. Spread: Tamanho da sombra (px, em, rem, %).
+                    5. Cor: Cor da sombra (hex, rgb, rgba).
+                Propriedades relacionadas
+                    1. box-shadow: none: Remove a sombra.
+                    2. box-shadow: inset: Cria uma sombra interna.
+                    3. -webkit-box-shadow: Suporte para Safari e Chrome antigos.
+                    4. -moz-box-shadow: Suporte para Firefox antigos.
+                Dicas
+                    1. Utilize valores negativos para criar efeitos de elevação.
+                    2. Combine com border-radius para criar efeitos arredondados.
+                    3. Utilize rgba para controlar transparência.
+                    4. Experimente diferentes valores para criar efeitos únicos.
+            */
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(169, 169, 169);
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Técnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minima, temporibus odio similique dolore minus est tenetur maiores recusandae doloribus, quam ipsam laborum reiciendis magni pariatur! Saepe exercitationem dolores possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae, error, praesentium velit corrupti aut quos impedit molestiae fugit sunt iure eos alias itaque neque modi numquam, fuga perferendis? Fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quas perferendis doloremque cumque labore blanditiis rem at non pariatur velit alias perspiciatis similique voluptatum. Velit eius a numquam maxime nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sunt voluptatum distinctio quidem nihil maiores, fugiat at illo accusamus, est dolore! Debitis quia repellat iusto in voluptas quo vel minima?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae vitae dolorum adipisci modi, odit vel impedit atque dicta voluptatem eos. Voluptatem, obcaecati. Perferendis et quibusdam, dolorem ex dolor nisi fuga.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por CursoemVideo.</p>
+    </footer>
+</body>
+</html>
