@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas com Imagens</title>
+    <style>
+        h1 {
+            border: 12px solid black;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+            /*border-image: url('borda.png') 27 repeat;*/
+/*
+A propriedade "border-image-source" em CSS define a imagem utilizada como borda de um elemento. Aqui estão os detalhes:
+    Valores
+        1. url: Caminho da imagem.
+        2. none: Remove a imagem de borda.
+        3. inherit: Herda o valor do elemento pai.
+        4. initial: Define o valor inicial.
+    Exemplos
+        1. Imagem de borda simples: border-image-source: url('borda.png');
+        2. Remover imagem de borda: border-image-source: none;
+    Propriedades relacionadas
+        1. border-image: Define a imagem de borda e suas propriedades.
+        2. border-image-slice: Divide a imagem em regiões.
+        3. border-image-width: Define a largura da borda.
+        4. border-image-outset: Define o deslocamento da borda.
+        5. border-image-repeat: Define a repetição da imagem.
+    Suporte aos navegadores
+        1. Chrome: 15+
+        2. Firefox: 15+
+        3. Safari: 6+
+        4. Edge: 12+
+        5. IE: 11+
+    Dicas
+        1. Utilize imagens com transparência (PNG ou SVG).
+        2. Defina border-image-width para controlar a largura da borda.
+        3. Utilize border-image-repeat para controlar a repetição da imagem.
+        4. Experimente diferentes valores para criar efeitos único
+
+A propriedade "border-image-slice" em CSS divide uma imagem em nove regiões para criar uma borda personalizada. Aqui estão os detalhes:
+    Valores
+        1. Porcentagem (%): Valor relativo ao tamanho da imagem.
+        2. Unidades de comprimento (px, em, rem): Valor absoluto.
+        3. Palavras-chave (fill, border): Especifica como a imagem deve ser cortada.
+        4. Valores múltiplos: Separe valores com espaços para definir cortes diferentes.
+    Exemplos
+        1. Corte em 20% horizontal e 30% vertical: border-image-slice: 20% 30%;
+        2. Corte em 10px horizontal e 20px vertical: border-image-slice: 10px 20px;
+        3. Corte com "fill" (preenche o centro): border-image-slice: fill 20%;
+        4. Corte com "border" (mantém a borda): border-image-slice: border 20%;
+    Propriedades relacionadas
+        1. border-image-source: Define a imagem da borda.
+        2. border-image-width: Define a largura da borda.
+        3. border-image-outset: Define o deslocamento da borda.
+        4. border-image-repeat: Define a repetição da imagem.
+    Suporte aos navegadores
+        1. Chrome: 15+
+        2. Firefox: 15+
+        3. Safari: 6+
+        4. Edge: 12+
+        5. IE: 11+
+    Dicas
+        1. Utilize imagens com transparência (PNG ou SVG).
+        2. Defina border-image-width para controlar a largura da borda.
+        3. Utilize border-image-repeat para controlar a repetição da imagem.
+        4. Experimente diferentes valores para criar efeitos únicos.
+
+A propriedade "border-image-repeat" em CSS define como a imagem de borda é repetida em cada região (canto, topo, direita, fundo e esquerda). Aqui estão os detalhes:
+    Valores
+        1. stretch: Estica a imagem para preencher a região.
+        2. repeat: Repete a imagem horizontalmente e/ou verticalmente.
+        3. round: Repete a imagem e ajusta para evitar espaços.
+        4. space: Repete a imagem com espaços entre elas.
+        5. initial: Define o valor inicial.
+        6. inherit: Herda o valor do elemento pai.
+        7. unset: Remove a propriedade.
+    Exemplos
+        1. Repetição horizontal e vertical: border-image-repeat: repeat;
+        2. Esticar horizontalmente e repetir verticalmente: border-image-repeat: stretch repeat;
+        3. Arredondar horizontalmente e espaçar verticalmente: border-image-repeat: round space;
+    Propriedades relacionadas
+        1. border-image-source: Define a imagem da borda.
+        2. border-image-slice: Divide a imagem em regiões.
+        3. border-image-width: Define a largura da borda.
+        4. border-image-outset: Define o deslocamento da borda.
+    Suporte aos navegadores
+        1. Chrome: 15+
+        2. Firefox: 15+
+        3. Safari: 6+
+        4. Edge: 12+
+        5. IE: 11+
+    Dicas
+        1. Utilize imagens pequenas para evitar distorções.
+        2. Experimente diferentes valores para criar efeitos únicos.
+        3. Combine com border-image-slice para controlar a imagem.
+*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+</body>
+</html>
