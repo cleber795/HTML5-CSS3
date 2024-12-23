@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vértices Arredondados</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(156, 156, 156);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(169, 169, 169);
+/*
+O parâmetro border-radius em CSS é utilizado para criar cantos arredondados em elementos HTML. Aqui está uma explicação detalhada:
+    Sintaxe
+        border-radius: valor;
+    Valores
+        1. Porcentagem (%): Valor relativo ao tamanho do elemento.
+        2. Unidades de comprimento (px, em, rem, cm, mm, pt, pc): Valor absoluto.
+        3. Valores múltiplos: Separe valores com espaços para definir cantos diferentes.
+    Exemplos
+        1. Arredondamento uniforme: border-radius: 10px;
+        2. Arredondamento diferente para cada canto: border-radius: 10px 20px 30px 40px;
+        3. Arredondamento em porcentagem: border-radius: 20%;
+        4. Arredondamento apenas nos cantos superiores: border-radius: 10px 10px 0 0;
+    Propriedades relacionadas
+        1. border-radius: 0;: Remove o arredondamento.
+        2. border-radius: inherit;: Herda o valor do elemento pai.
+        3. border-radius: initial;: Define o valor inicial.
+    Dicas
+        1. Utilize valores iguais para criar cantos arredondados uniformes.
+        2. Utilize valores diferentes para criar efeitos de cantos arredondados personalizados.
+        3. Combine com box-shadow para criar efeitos de profundidade.
+        4. Utilize border-radius: 50%; para criar círculos.
+*/
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Técnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minima, temporibus odio similique dolore minus est tenetur maiores recusandae doloribus, quam ipsam laborum reiciendis magni pariatur! Saepe exercitationem dolores possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae, error, praesentium velit corrupti aut quos impedit molestiae fugit sunt iure eos alias itaque neque modi numquam, fuga perferendis? Fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quas perferendis doloremque cumque labore blanditiis rem at non pariatur velit alias perspiciatis similique voluptatum. Velit eius a numquam maxime nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sunt voluptatum distinctio quidem nihil maiores, fugiat at illo accusamus, est dolore! Debitis quia repellat iusto in voluptas quo vel minima?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae vitae dolorum adipisci modi, odit vel impedit atque dicta voluptatem eos. Voluptatem, obcaecati. Perferendis et quibusdam, dolorem ex dolor nisi fuga.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por CursoemVideo.</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
